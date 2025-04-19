@@ -1,0 +1,113 @@
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--darker);
+    margin-top: -60px;
+}
+        
+.profile-name {
+    color: var(--lighter);
+    font-weight: 600;
+}        
+
+.profile-bio {
+    max-width: 600px;
+    opacity: 0.9;
+}
+
+.edit-btn {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+}
+                
+.profile-edit-container {
+    max-width: 80%;
+    margin: 2rem auto;
+    background-color: var(--dark);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    z-index: 7654;
+}
+        
+.profile-edit-header {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: white;
+    padding: 1.5rem ;
+}
+        
+.profile-pic-edit {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--dark);
+    margin: -70px auto 1rem;
+    display: block;
+    background-color: var(--dark);
+    position: relative;
+    cursor: pointer;
+}
+        
+.edit-pic-btn:hover{
+    opacity: 1 !important;
+}
+
+.edit-pic-btn {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: .3s;
+}
+
+.edit-pic-btn img{
+    max-width: 50px;
+}
+        
+.profile-edit-body {
+    padding: 2rem;
+}
+        
+.form-label {
+    color: var(--lighter);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}        
+.btn-cancel {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: var(--light);
+    padding: 0.75rem 2rem;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+        
+.btn-cancel:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+        
+.divider {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 1.5rem 0;
+}
+
+.form-control{
+    margin-bottom: 20px;
+}
